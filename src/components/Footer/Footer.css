@@ -1,0 +1,93 @@
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer .container {
+    display: block;
+}
+
+.item-list {
+    margin-left: 20px;
+}
+
+.catalogo-footer li a {
+    font-size: 16px;
+}
+
+footer .catalogo-footer li {
+    padding-top: 0px;
+}
+
+footer h3 {
+    margin-left: 0;
+    font-size: 26px;
+}
+
+footer div {
+    padding: 4% ;
+}
+
+.contacto-footer {
+    display: flex;
+    align-items: center;
+    border-top: solid 2px;
+    padding-top: 20px;
+}
+
+.footer-redes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 10%;
+    margin-left: 5%;
+    padding-bottom: 0px;
+}
+
+#wp-footer {
+    margin-left: 0;
+    font-size: 16px;
+    border-radius: 20px;
+    padding: 1% 3%;
+}
+
+.footer-img {
+    height: 30px;
+    margin: 0 10px
+}
+
+/* Desktop */
+
+@media only screen and (min-width: 767px) {
+    footer .container {
+        justify-content: space-around;
+        padding: 3% 5%;
+    }
+    
+    .catalogo-footer ul li {
+        padding-top: 5px;
+        font-size: 1.25em;
+        transition: all .2s linear;
+    }
+    .catalogo-footer ul li:hover {
+        text-decoration: underline;
+    }
+
+    .contacto-footer {
+        padding: 5% 0%;
+        align-items: center;
+    }
+    .footer-redes {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 180px;
+    }
+    .footer-redes img {
+        width: 40px;
+        height: 40px;
+    }
+    .footer-redes h3 {
+        font-size: 1.375em;
+    }
+}

@@ -1,0 +1,25 @@
+.sexo-grid img {
+    width: 100%;
+    height: auto;
+}
+
+.important-info img {
+    padding: 20px 0;
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (min-width: 767px) {
+    .sexo-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 0px 0px;
+        grid-template-areas:
+          "niños niños"
+          "hombres mujeres";
+      }
+      .niños-link { grid-area: niños; }
+      .hombres-link { grid-area: hombres; }
+      .mujeres-link { grid-area: mujeres; }
+}

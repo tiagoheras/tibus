@@ -1,0 +1,134 @@
+h4 {
+    padding-right: 8px;
+    font-size: 1.45rem;
+    font-weight: normal;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#main-img {
+    max-width: 100vw;
+}
+
+.info {
+    width: 80%;
+    text-align: left;
+    padding-left: 20px;
+    padding: 20px 0;
+}
+
+.product-page__nombre {
+    font-size: 1.7rem;
+}
+
+.product-page__precio-anterior {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.product-page__descuento {
+    color: #17995a;
+    border-radius: 3.5px;
+    font-size: 1.15rem;
+}
+
+.product-page__descuento-container {
+    display: flex;
+    align-items: center;
+    margin: 7px 2px;
+}
+
+.choose-talle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 170px;
+    font-size: 1.2rem;
+    margin-top: 25px;
+    margin-left: 4px;
+}
+
+select {
+    font-size: 1.1rem;
+    float: left;
+}
+
+label {
+    font-size: 1.35rem;
+    padding-bottom: 10px;
+    float: left;
+    text-align: left;
+}
+
+.main button {
+    width: 80vw;
+    height: 45px;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: white;
+    border-radius: 8px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.comprar {
+background-color: #3380F5;
+}
+
+.consultar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #25D366;
+}
+
+h1 {
+    text-align: center;
+}
+
+.consultar img {
+    width: 30px;
+    height: auto;
+}
+
+#volver {
+    background-color: transparent;
+    border: none;
+    position: relative;
+    color: black;
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+@media only screen and (min-width: 767px) {
+    .main {
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0 5%;
+        margin: 10px 15px;
+        width: 100vw;
+    }
+    .info {
+        text-align: left;
+        margin-left: 5%;
+    }
+
+    .choose-talle {
+        margin-bottom: 20px;
+    }
+
+    .main button {
+        max-width: 25vw;
+        margin: 10px 0;
+    }
+
+    #main-img {
+        min-width: 45vw;
+    }
+}

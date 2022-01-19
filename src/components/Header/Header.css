@@ -1,0 +1,154 @@
+header {
+    background-color: #212121;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    height: 56px;
+}
+
+nav {
+    padding: 0 2%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    position: relative;
+}
+
+nav a {
+    font-size: 18px;
+}
+
+#logo-titre-header {
+    height: 50px;
+    width: auto;
+}
+
+#catalogo-nav {
+    width: 50%;
+}
+
+#talles__button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    text-decoration: underline;
+}
+
+.talles-table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    background: #00000050;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+  }
+
+.talles-box {
+    text-align: left;
+    position: relative;
+    width: 65vw;
+    margin: 0 auto;
+    height: auto;
+    max-height: 70vh;
+    background: #fff;
+    border-radius: 4px;
+    padding: 20px;
+    border: 1px solid #999;
+    overflow-y: scroll;
+}
+
+.table-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+table, th, td{
+    text-align: center;
+    padding: 2px 5px;
+    border: .5px solid rgb(212, 212, 212);
+    margin:2% auto;
+    border-collapse: collapse;
+}
+
+table {
+    margin-top: 5%;
+    overflow-x: scroll;
+}
+
+.talles-img img{
+    margin: 5% auto;
+}
+
+.table-text h1{
+    margin: 5% 0;
+}
+
+.table-text p {
+    font-size: 1.125rem;
+}
+
+ .table-container {
+    overflow-x: scroll;
+} 
+
+.bf {
+    background-color: red;
+    max-height: 30px;
+    align-items: flex-start;
+    display: flex;
+}
+
+.bf h5 {
+    margin: 0;
+    color: white;
+    font-weight: bold;
+    padding: 0;
+    font-size: 14px;
+}
+
+@media only screen and (min-width: 767px) {
+    header {
+        width: 100vw;
+        padding-left: 60px;
+        height: 72px;
+        justify-content: space-between;
+    }
+
+    #logo-titre-header {
+        height: 70px;
+    }
+
+    #talles__button {
+        display: block;
+        background-color: transparent;
+        border: none;
+        color: white;
+        font-size: 1.125rem;
+        padding: 5px;
+        transition: all .2s linear;
+        cursor: pointer;
+    }
+
+    #talles-button__button_desktop:hover {
+        text-decoration: underline;
+    }
+
+    nav {
+        width: 25%;
+        padding: 0 3%;
+    }
+
+    .bf {
+        display: none;
+    }
+}
